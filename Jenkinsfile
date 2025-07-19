@@ -24,7 +24,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 script {
-                    clone("https://github.com/codewithmitesh/shoply-devops.git","master")
+                    clone("https://github.com/codewithmitesh/shoply-devops.git","main")
                 }
             }
         }
